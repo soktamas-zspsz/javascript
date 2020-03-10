@@ -1,0 +1,30 @@
+<html>
+<head>
+  <title>
+    Javascript próba
+  </title>
+  <SCRIPT LANGUAGE="JavaScript">
+		function nagyobb(){
+			var a = parseInt(document.urlap1.egyik.value);
+			var b = parseInt(document.urlap1.masik.value);
+			if (a>b){
+				alert("Az első szám a nagyobb")
+			} else {
+				alert("A második szám a nagyobb")
+			}
+			
+		}
+  </SCRIPT>  
+</head>  
+
+ <BODY>
+   <FORM NAME="urlap1">
+     Add meg a számokat:<BR><BR>
+      A:<BR>
+      <INPUT TYPE="text" NAME="egyik"> <BR><BR>
+	  B:<BR>
+      <INPUT TYPE="text" NAME="masik"> <BR><BR>	 
+	  <INPUT TYPE="button" VALUE="Számítás" onClick="nagyobb()"> <BR><BR>
+    </FORM>
+ </BODY>
+</html>  
