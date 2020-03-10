@@ -1,0 +1,31 @@
+<html>
+<head>
+  <title>
+    Javascript próba
+  </title>
+  <SCRIPT LANGUAGE="JavaScript">
+	function szorzat(){
+	var a = parseInt(document.urlap1.egyik.value);
+	var b = parseInt(document.urlap1.masik.value);
+	//alert("A téglalap területe: "+a*b+"\n"+"A téglalap kerülete: "+2*(a+b));
+	document.urlap1.terulet.value=a*b;
+	document.urlap1.kerulet.value=2*(a+b);
+	}
+  </SCRIPT>  
+</head>  
+
+ <BODY>
+    <FORM NAME="urlap1">
+     Add meg a téglalap két oldalát:<BR>
+     a:<BR>
+	 <INPUT TYPE="text" NAME="egyik"> <BR>
+	 b:<BR>
+	 <INPUT TYPE="text" NAME="masik"> <BR><BR>
+     <INPUT TYPE="button" VALUE="Számolás" onClick="szorzat()"> <BR><BR>
+	 Terület:<BR>
+	 <INPUT TYPE="text" NAME="terulet"> <BR><BR>
+	 Kerület:<BR>
+	 <INPUT TYPE="text" NAME="kerulet"> <BR><BR>
+  </FORM>
+ </BODY>
+</html>  
